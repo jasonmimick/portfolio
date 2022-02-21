@@ -25,7 +25,7 @@
  * 2018 Chicago MongoDB Local talk
  [https://mongodblocalchicago2018.sched.com/event/FkWy/mongodb-ops-manager-kubernetes](https://mongodblocalchicago2018.sched.com/event/FkWy/mongodb-ops-manager-kubernetes)
  
- * MongoDB Atlas Open Service Broker - I wrote this project and managed team to help Manulife and other MongoDB customers migrate from running MongoDB on-prem through PCF and seamlessly transition over     400 services to use MongoDB Atlas without application code changes.
+ * MongoDB Atlas Open Service Broker - I wrote this project and managed a team to help Manulife and other MongoDB customers migrate from running MongoDB on-prem on Pivotal Cloud Foudry and seamlessly transition over 400 services to use MongoDB Atlas without application code changes.
  [https://github.com/jasonmimick/atlas-osb](https://github.com/jasonmimick/atlas-osb)
  
  * re:Invent talk 2019
