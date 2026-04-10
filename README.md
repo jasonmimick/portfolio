@@ -1,8 +1,10 @@
 # Technical Portfolio — Jason Mimick
 
-Selected projects, talks, blogs, and open-source work.
+Senior Partner Solutions Architect at AWS with 25+ years building and shipping products across cloud, databases, observability, and AI. Currently focused on GenAI agent systems, observability integrations, and developer tooling with partners like Dynatrace, Datadog, and Grafana.
 
-🔗 [github.com/jasonmimick](https://github.com/jasonmimick) · [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) · [@jmimick](https://twitter.com/jmimick)
+📄 [Resume (markdown)](resume.md) · [Resume (classic PDF)](JasonMimickResume2026-classic.pdf) · [Resume (modern PDF)](JasonMimickResume2026-modern.pdf)
+
+🔗 [github.com/jasonmimick](https://github.com/jasonmimick) · [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) · [@jmimick](https://twitter.com/jmimick) · [LinkedIn](https://www.linkedin.com/in/jmimick)
 
 *Last updated* April 2026
 
