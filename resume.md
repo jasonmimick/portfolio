@@ -91,9 +91,15 @@ IDX Systems Corporation \- Burlington, Vermont USA
 
 * Designed and coded Mumps database scripts and HL7 interfaces for IDX clients. 
 
-**Technical Skills**  
-Conversant in most popular languages (Go, python, Java, C\#, JavaScript, etc)  
-CNCF, Cloud Foundry, AWS, Azure, GCP, Kubernetes, Helm, OSB  
+**Technical Skills**
+
+*Languages:* Go, Python, Java, C#, JavaScript/TypeScript, Shell, SQL, LaTeX  
+*GenAI & Agents:* Amazon Bedrock, Bedrock Agents, Bedrock AgentCore, Strands Agents SDK, LangChain, LangGraph, Nova Sonic, MCP, ACP, Prompt Engineering, RAG, LLM Observability  
+*Observability:* OpenTelemetry (OTEL), ADOT, Dynatrace, Datadog, Jaeger, CloudWatch, Grafana, LLM Tracing, Davis AI  
+*AWS:* Lambda, ECS/Fargate, CDK, CloudFormation, AppConfig, API Gateway, S3, SageMaker, SSM, IAM, ECR, CodePipeline  
+*Developer Tools:* Kiro, kiro-cli, Docker, Terraform, Helm, Git, Obsidian, Pandoc  
+*Platforms:* Kubernetes, Cloud Foundry, OpenShift, Crossplane, Linux, macOS  
+*Data:* MongoDB Atlas, DynamoDB, OpenSearch, PostgreSQL, HL7/FHIR  
 [Portfolio](https://github.com/jasonmimick/portfolio)
 
 **Education**   
