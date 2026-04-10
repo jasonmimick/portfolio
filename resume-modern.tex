@@ -1,0 +1,135 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{tabularx}
+
+% Modern color scheme
+\definecolor{accent}{HTML}{2B6CB0}
+\definecolor{darktext}{HTML}{1A202C}
+\definecolor{lighttext}{HTML}{4A5568}
+\definecolor{ruleline}{HTML}{CBD5E0}
+
+\setmainfont{Helvetica Neue}[
+  BoldFont=Helvetica Neue Bold,
+  ItalicFont=Helvetica Neue Italic
+]
+
+\hypersetup{colorlinks=true,linkcolor=accent,urlcolor=accent}
+\color{darktext}
+\pagestyle{plain}
+\setlength{\parskip}{2pt}
+
+\titleformat{\section}{\normalsize\bfseries\scshape\color{accent}}{}{0em}{}[{\color{ruleline}\titlerule}]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+\setlist[itemize]{nosep,left=0pt..1.5em,topsep=1pt,label={\color{accent}\textbullet}}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\fontsize{22}{26}\selectfont\bfseries\color{accent} Jason Mimick}\\[4pt]
+{\normalsize\color{lighttext} Product \& Engineering}\\[8pt]
+{\small\color{lighttext}
+540.359.5137 \enspace\textbar\enspace
+\href{mailto:jmimick@gmail.com}{jmimick@gmail.com} \enspace\textbar\enspace
+\href{https://github.com/jasonmimick}{github.com/jasonmimick} \enspace\textbar\enspace
+\href{https://www.linkedin.com/in/jmimick}{linkedin.com/in/jmimick}}
+\end{center}
+
+\vspace{2pt}
+
+\section{Professional Summary}
+{\small Building and shipping revenue-generating products across a variety of technologies for over a quarter century.
+Pragmatic, driven, hands-on, roll-up-sleeves attitude.
+Database, cloud, devops, marketplace, product, \& engineering expertise with AI experience.
+Graduate school and professional teaching.}
+
+\section{Employment History}
+
+\textbf{\href{https://aws.amazon.com/}{Amazon Web Services}} \hfill {\small\color{lighttext} New York, NY}\\
+{\small\itshape\color{accent} WW Senior Partner Solutions Architect --- Observability, DevOps, GenAI \hfill May 2022 -- Present}
+\begin{itemize}
+\item {\small Enabling partner product integrations, launches, and go-to-market efforts for multiple partners across the entire suite of AWS services.}
+\item {\small Working with top ISVs --- Core Member ISV TFC Datadog, Dynatrace, Hashicorp, Grafana and AWS service teams Bedrock, Lambda, ECS to deliver new integrations and solutions.}
+\item {\small Next Gen Developer Tools Specialist --- Kiro, kiro-cli, MCP, ACP, Frontier Agents, DevOps Agent, Security Agent.}
+\end{itemize}
+
+\textbf{\href{https://www.mongodb.com/}{MongoDB, Inc}} \hfill {\small\color{lighttext} New York, NY}\\
+{\small\itshape\color{accent} Product Manager Cloud \hfill Aug 2019 -- Jan 2022}
+\begin{itemize}
+\item {\small Kubernetes PM --- shipped official Helm Chart repository, MongoDB Atlas Kubernetes Operator, and Multi-Cluster support.}
+\item {\small Launched MongoDB Atlas AWS \href{https://github.com/mongodb/mongodbatlas-cloudformation-resources}{CloudFormation Custom Resources} and \href{https://aws.amazon.com/quickstart/architecture/mongodb-atlas/}{Quickstart} --- grew from zero to 400+ clusters launched/month in 12 months.}
+\end{itemize}
+
+{\small\itshape\color{accent} Technical Director \hfill Aug 2017 -- Aug 2019}
+\begin{itemize}
+\item {\small Solo engineer for MongoDB Atlas GCP Enterprise Marketplace integration.}
+\item {\small Enabled IBM to ship MongoDB in \href{https://www.ibm.com/products/cloud-pak-for-data}{Cloud Pak for Data}.}
+\item {\small Kick-started MongoDB Kubernetes products with \href{https://cloud.redhat.com/blog/dev-preview-mongodb-enterprise-running-on-openshift}{Developer Preview}, sales support, and meetups.}
+\item {\small PM for Cloud Foundry Tile --- migrated 400+ microservices to Atlas via \href{https://github.com/mongodb/atlas-osb}{Atlas Open Service Broker}.}
+\end{itemize}
+
+{\small\itshape\color{accent} Senior Consulting Engineer \hfill Jan 2015 -- Aug 2017}
+\begin{itemize}
+\item {\small Embedded consultant for United Airlines, The Gap, US Dept.\ of Veterans Affairs --- mobile apps, distribution workflow, data integrity.}
+\end{itemize}
+
+\textbf{\href{http://www.intersystems.com/}{InterSystems Corporation}} \hfill {\small\color{lighttext} Cambridge, MA}\\
+{\small\itshape\color{accent} Sales Engineer \hfill May 2012 -- Dec 2014}
+\begin{itemize}
+\item {\small Technical expertise for global prospects from startups to \$10B+ corporations. Evangelized emerging cloud technologies.}
+\end{itemize}
+
+\textbf{\href{http://www.microsoft.com}{Microsoft Corporation}} \hfill {\small\color{lighttext} Redmond, WA}\\
+{\small\itshape\color{accent} Senior Software Engineer Lead \hfill 2010 -- 2012}
+\begin{itemize}
+\item {\small Managed 7-engineer team for HealthVault Community Connect. Designed partner SDK. FDA Meaningful Use certification.}
+\end{itemize}
+
+{\small\itshape\color{accent} Senior Software Engineer \hfill 2008 -- 2010}
+\begin{itemize}
+\item {\small Built data ingestion engine for Amalga --- 4x implementation speedup. Extended Microsoft dev tools.}
+\end{itemize}
+
+\textbf{\href{http://www.quadramed.com/}{QuadraMed Corporation}} \hfill {\small\color{lighttext} Reston, VA}\\
+{\small\itshape\color{accent} Enterprise Architect \hfill 2007 -- 2008}
+{\small\enspace\textbar\enspace}
+{\small\itshape\color{accent} Director Product Development \hfill 2005 -- 2007}
+{\small\enspace\textbar\enspace}
+{\small\itshape\color{accent} Principal Engineer / Team Lead \hfill 2002 -- 2005}
+{\small\enspace\textbar\enspace}
+{\small\itshape\color{accent} Programmer/Analyst II \hfill 2000 -- 2002}
+\begin{itemize}
+\item {\small 8 years progressing from analyst to enterprise architect. Managed 17-person team. Built HL7 messaging, web portals, biometric auth, SSO, and BI systems.}
+\end{itemize}
+
+{\small\textbf{University of Memphis} --- \textit{\color{accent}Graduate Teaching Fellow, 1999--2000} \enspace\textbar\enspace \textbf{IDX Systems} --- \textit{\color{accent}Software Engineer, 1998--2000}}
+
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}r X@{}}
+{\small\bfseries\color{accent} Languages} & {\small Go, Python, Java, C\#, JavaScript/TypeScript, Shell, SQL, \LaTeX} \\
+{\small\bfseries\color{accent} GenAI} & {\small Amazon Bedrock, Bedrock Agents, AgentCore, Strands SDK, LangChain, LangGraph, Nova Sonic, MCP, ACP, RAG, LLM Observability} \\
+{\small\bfseries\color{accent} Observability} & {\small OpenTelemetry, ADOT, Dynatrace, Datadog, Jaeger, CloudWatch, Grafana, Davis AI} \\
+{\small\bfseries\color{accent} AWS} & {\small Lambda, ECS/Fargate, CDK, CloudFormation, AppConfig, API Gateway, S3, SageMaker, SSM, IAM, ECR, CodePipeline} \\
+{\small\bfseries\color{accent} Tools} & {\small Kiro, Docker, Terraform, Helm, Git, Obsidian} \\
+{\small\bfseries\color{accent} Platforms} & {\small Kubernetes, Cloud Foundry, OpenShift, Crossplane, Linux, macOS} \\
+{\small\bfseries\color{accent} Data} & {\small MongoDB Atlas, DynamoDB, OpenSearch, PostgreSQL, HL7/FHIR} \\
+\end{tabularx}
+
+\section{Education}
+\textbf{University of Vermont} --- MS Mathematics, 1998 \enspace\textbar\enspace Thesis: \href{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.2960&rep=rep1&type=pdf}{Ranking Partially Ordered Sets} \enspace\textbar\enspace Graduate Teaching Fellow --- Algebra, Calculus, Discrete Mathematics\\
+\textbf{University of Nebraska} --- BS Mathematics, 1996
+
+\section{Patent}
+{\small Serviceability and Configuration Management --- United States 20100299653}
+
+\section{Personal Interests}
+{\small Family, Music (Guitar-head), Philosophy, Math, Technology, Cycling, Running, Hiking, \& our dog Luna and crazy cats Aslan and Ali}
+
+\end{document}

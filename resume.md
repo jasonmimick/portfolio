@@ -45,7 +45,7 @@ Graduate school and professional teaching
 * Provided technical expertise for global prospects ranging from startups to $10B+ corporations.  
 * Evangelized and educated internal and external customers on emerging cloud technologies.
 
-[Microsoft](http://www.google.com/url?q=http%3A%2F%2Fwww.microsoft.com&sa=D&sntz=1&usg=AFQjCNHfQl7OtOo0ehabVUi2o0_wQZ7A4A) Corporation \- Redmond, Washington USA  
+[Microsoft](http://www.microsoft.com) Corporation \- Redmond, Washington USA  
 *Senior Software Engineer Lead \- 2010 ↦ 2012* 
 
 * Managed development team of 7 engineers for Microsoft HealthVault Community Connect.  
@@ -59,7 +59,7 @@ Graduate school and professional teaching
 * Ensured repeatable and verifiable data processing by extending Microsoft development tools.  
 * Boosted team and customer productivity and technical skills via training, consulting, and mentoring.
 
-[QuadraMed](http://www.google.com/url?q=http%3A%2F%2Fwww.quadramed.com%2F&sa=D&sntz=1&usg=AFQjCNHsuaEt9bLFirwj5uiRFVfLPGchIw) Corporation \- Reston, Virginia USA  
+[QuadraMed](http://www.quadramed.com/) Corporation \- Reston, Virginia USA  
 *Enterprise Architect \- 2007 ↦ 2008*
 
 * Advised leadership team on strategic technology plans.  
@@ -104,7 +104,7 @@ IDX Systems Corporation \- Burlington, Vermont USA
 
 **Education**   
 University of Vermont MS Mathematics 1998  
-Master's Thesis: [Ranking Partially Ordered Sets](http://www.google.com/url?q=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.28.2960%26rep%3Drep1%26type%3Dpdf&sa=D&sntz=1&usg=AFQjCNEP79eTdRu5DLbxdIz-dmvJQnpaAQ) Graduate Teaching Fellow \- Algebra, Calculus, and Discrete  
+Master's Thesis: [Ranking Partially Ordered Sets](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.2960&rep=rep1&type=pdf) Graduate Teaching Fellow \- Algebra, Calculus, and Discrete Mathematics  
 University of Nebraska BS Mathematics 1996  
 
 **Patents**  
