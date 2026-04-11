@@ -1,6 +1,6 @@
 # Technical Portfolio — Jason Mimick
 
-Senior Partner Solutions Architect at AWS with 25+ years building and shipping products across cloud, databases, observability, and AI. Currently enabling GenAI agent systems, observability integrations, and next-gen developer tooling with AWS's top ISV partners — the $100M–$1B+ strategic technology companies building on AWS.
+Senior Partner Solutions Architect at AWS with 25+ years building and shipping products across cloud, databases, observability, and AI. Currently enabling GenAI agent systems, observability integrations, and next-gen developer tooling with AWS's top strategic ISV partners.
 
 📄 [Resume (markdown)](resume.md) · [Resume (classic PDF)](JasonMimickResume2026-classic.pdf) · [Resume (modern PDF)](JasonMimickResume2026-modern.pdf)
 
