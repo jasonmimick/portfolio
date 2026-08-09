@@ -77,9 +77,9 @@ IDX Systems Corporation \- Burlington, Vermont USA
 
 **Public Work & Publications**
 
-GitHub: [github.com/jasonmimick](https://github.com/jasonmimick) (personal/product work) · [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) (AWS/partner work)  
-AWS Builder Center: [builder.aws.com/community/@mimjasov](https://builder.aws.com/community/@mimjasov?tab=articles)  
-Portfolio: [github.com/jasonmimick/portfolio](https://github.com/jasonmimick/portfolio)
+Portfolio: [github.com/jasonmimick/portfolio](https://github.com/jasonmimick/portfolio)  
+GitHub: [github.com/jasonmimick](https://github.com/jasonmimick) (personal/product work), [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) (AWS/partner work)  
+AWS Builder Center: [builder.aws.com/community/@mimjasov](https://builder.aws.com/community/@mimjasov?tab=articles)
 
 * [Monitor agents built on Amazon Bedrock with Datadog LLM Observability](https://aws.amazon.com/blogs/machine-learning/monitor-agents-built-on-amazon-bedrock-with-datadog-llm-observability/) — AWS Machine Learning Blog, Jul 2025  
 * [AI Agents: Building, Scaling, and Monitoring Autonomous Systems on AWS](https://dash.datadoghq.com/2025/speakers/jason-mimick) — Expo Theater Talk, Datadog DASH 2025, Jun 2025  
