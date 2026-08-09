@@ -1,0 +1,165 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{tabularx}
+
+% Modern color scheme
+\definecolor{accent}{HTML}{000000}
+\definecolor{darktext}{HTML}{1A202C}
+\definecolor{lighttext}{HTML}{4A5568}
+\definecolor{ruleline}{HTML}{CBD5E0}
+
+\setmainfont{Helvetica Neue}[
+  BoldFont=Helvetica Neue Bold,
+  ItalicFont=Helvetica Neue Italic
+]
+
+\hypersetup{colorlinks=true,linkcolor=accent,urlcolor=accent}
+\color{darktext}
+\pagestyle{plain}
+\setlength{\parskip}{2pt}
+
+\titleformat{\section}{\normalsize\bfseries\scshape\color{accent}}{}{0em}{}[{\color{ruleline}\titlerule}]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+\setlist[itemize]{nosep,left=0pt..1.5em,topsep=1pt,label={\color{accent}\textbullet}}
+
+\begin{document}
+
+% Header
+\noindent
+\begin{minipage}[t]{0.62\textwidth}
+{\fontsize{22}{26}\selectfont\bfseries\color{accent} Jason Mimick}\\[2pt]
+{\normalsize\color{lighttext} Product \& Platform Leadership}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.36\textwidth}
+\raggedleft
+{\small\color{lighttext}
+540.359.5137\\
+\href{mailto:jmimick@gmail.com}{jmimick@gmail.com}\\
+\href{https://github.com/jasonmimick}{github.com/jasonmimick}\\
+\href{https://www.linkedin.com/in/jmimick}{linkedin.com/in/jmimick}}
+\end{minipage}
+
+\vspace{2pt}
+{\color{ruleline}\hrule}
+
+\vspace{2pt}
+
+\section{Professional Summary}
+{\small
+Building and shipping revenue-generating products across cloud, data, and developer platforms for over a quarter century.\\
+Product management and technical leadership experience; pragmatic, driven, hands-on, roll-up-sleeves attitude.\\
+Skilled at turning disconnected pieces (legacy systems, partner integrations, half-finished pipelines) into coherent usable products.\\
+Product range spans owning the roadmap and GTM directly as a Product Manager (MongoDB) to scoping and shipping integrations alongside ISV and AWS product managers as a Partner Solutions Architect (AWS).\\
+15+ years hands-on database work (MUMPS/Cach\'e, MongoDB) plus systems-level infrastructure through devops tooling, cloud, observability, product, \& GTM, with AI agent experience.\\
+Graduate school and professional teaching.}
+
+\section{Employment History}
+
+\textbf{\href{https://aws.amazon.com/}{Amazon Web Services}} \hfill {\small\color{lighttext} New York, NY}\\
+{\small\itshape\color{accent} WW Senior Partner Solutions Architect --- Observability, DevOps, GenAI \hfill May 2022 -- Present}
+\begin{itemize}
+\item {\small Enabling partner product integrations, launches, and GTM for AWS's top strategic ISVs in the observability and DevOps space, working directly with AWS service teams (Bedrock, Lambda, ECS) and partner product managers to scope and ship new integrations.}
+\item {\small Built the AWS AppConfig feature-flag extension for Dynatrace, a direct feature-management/observability integration extending AppConfig's flagging model into partner telemetry pipelines.}
+\item {\small Next-Gen Developer Tools Specialist (Kiro, kiro-cli, MCP, ACP), hands-on with how AI agents consume AWS and partner platform capabilities, not just how humans click through a dashboard.}
+\item {\small Continuously building agent-ready observability POCs, demos, workshops, and open repos across AWS services (Bedrock, AgentCore, Strands Agents SDK) over the last four years, from LLM-as-judge evaluators scoring AI-SRE fixes to tooling that turns raw telemetry into agent-consumable remediation data.}
+\end{itemize}
+
+\textbf{\href{https://www.mongodb.com/}{MongoDB, Inc}} \hfill {\small\color{lighttext} New York, NY}\\
+{\small\itshape\color{accent} Product Manager Cloud \hfill Aug 2019 -- Jan 2022}
+\begin{itemize}
+\item {\small Kubernetes PM: shipped the official Helm Chart repository, the MongoDB Atlas Kubernetes Operator, and Multi-Cluster support.}
+\item {\small Launched the MongoDB Atlas AWS \href{https://github.com/mongodb/mongodbatlas-cloudformation-resources}{CloudFormation Custom Resources} and \href{https://aws.amazon.com/quickstart/architecture/mongodb-atlas/}{Quickstart}; grew adoption from zero to 400+ clusters launched per month in 12 months.}
+\end{itemize}
+
+{\small\itshape\color{accent} Technical Director \hfill Aug 2017 -- Aug 2019}
+\begin{itemize}
+\item {\small Sole engineer and product owner for the MongoDB Atlas GCP Enterprise Marketplace integration.}
+\item {\small Product-managed MongoDB builds on IBM mainframe (s390x) platforms, enabling IBM to ship MongoDB support in Cloud Pak for Data.}
+\item {\small Product manager for the MongoDB Cloud Foundry Tile; built the \href{https://github.com/mongodb/atlas-osb}{Atlas Open Service Broker}, migrating 400+ microservices to Atlas with zero application code changes.}
+\item {\small Kick-started official MongoDB Kubernetes products from zero: \href{https://cloud.redhat.com/blog/dev-preview-mongodb-enterprise-running-on-openshift}{developer preview}, sales enablement, and customer outreach.}
+\end{itemize}
+
+{\small\itshape\color{accent} Senior Consulting Engineer \hfill Jan 2015 -- Aug 2017}
+\begin{itemize}
+\item {\small Embedded with enterprise customers (United Airlines, The Gap, US Dept.\ of Veterans Affairs), worked on complex systems such as a MongoDB-backed CQRS warehouse-sorting system (The Gap) and a mobile/onboarding app (United Airlines); delivered technical training and consultation across industries.}
+\end{itemize}
+
+\textbf{\href{http://www.intersystems.com/}{InterSystems Corporation}} \hfill {\small\color{lighttext} Cambridge, MA}\\
+{\small\itshape\color{accent} Sales Engineer \hfill May 2012 -- Dec 2014}
+\begin{itemize}
+\item {\small Solutions engineer for the InterSystems Cach\'e/Mumps database and healthcare interoperability stack (HL7 interface engines, Epic integrations, FHIR/HIPAA-compliant patient data sharing), for prospects from startups to \$10B+ enterprises.}
+\end{itemize}
+
+\textbf{\href{http://www.microsoft.com}{Microsoft Corporation}} \hfill {\small\color{lighttext} Redmond, WA}\\
+{\small\itshape\color{accent} Senior Software Engineer Lead \hfill 2008 -- 2012}
+\begin{itemize}
+\item {\small Led a 7-engineer team; shipped Microsoft HealthVault Community Connect and its partner SDK.}
+\item {\small Certified products against FDA Meaningful Use healthcare reform requirements.}
+\item {\small Lead developer on the Amalga Script Engine Explorer, a Visual Studio-integrated dev tool that generated project scaffolding and C\# parsing code for healthcare data-feed parsers (fundamentally a data-ingestion/database problem); cut implementation time 4x.}
+\end{itemize}
+
+\textbf{\href{http://www.quadramed.com/}{QuadraMed Corporation}} \hfill {\small\color{lighttext} Reston, VA}\\
+{\small\itshape\color{accent} Director Product Development \hfill 2005 -- 2007}
+\begin{itemize}
+\item {\small Ran product development for the QuadraMed Affinity Tool platform, an interface to the MUMPS database, supporting 5 application teams; managed a 17-person team (design, engineering, test, docs). The platform owned app-platform, person-indexing, workflow, front-end GUI, and content-management components.}
+\end{itemize}
+
+{\small\itshape\color{accent} Enterprise Architect \hfill 2007 -- 2008}
+{\small\enspace\textbar\enspace}
+{\small\itshape\color{accent} Principal Engineer / Team Lead \hfill 2002 -- 2005}
+{\small\enspace\textbar\enspace}
+{\small\itshape\color{accent} Programmer/Analyst II \hfill 2000 -- 2002}
+\begin{itemize}
+\item {\small Delivered architecture and shipped product for hospital consumer portals, HL7 enterprise messaging, and biometric/LDAP authentication.}
+\end{itemize}
+
+{\small\textbf{University of Memphis} --- \textit{\color{accent}Graduate Teaching Fellow, 1999--2000}: Lectured algebra, calculus, and discrete mathematics. \enspace\textbar\enspace \textbf{IDX Systems} --- \textit{\color{accent}Software Engineer, 1998--2000}: Mumps database scripts and HL7 interfaces for healthcare clients.}
+
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}r X@{}}
+{\small\bfseries\color{accent} GenAI \& Agents} & {\small Amazon Bedrock, Bedrock Agents, AgentCore, Anthropic Claude / Claude Code, Strands SDK, LangChain, LangGraph, MCP, ACP, Agent Skills design, Prompt Engineering, RAG, LLM Observability} \\
+{\small\bfseries\color{accent} Databases (15+ yrs)} & {\small MongoDB Atlas, Cach\'e/MUMPS, HL7/FHIR data models} \\
+{\small\bfseries\color{accent} Data \& Observability} & {\small OpenTelemetry, ADOT, Dynatrace, Datadog, Jaeger, CloudWatch, Grafana, LLM Tracing, feature-flag/config systems (AWS AppConfig)} \\
+{\small\bfseries\color{accent} Platforms} & {\small AWS (Lambda, ECS/Fargate, CDK, CloudFormation, AppConfig, API Gateway, S3, SageMaker), Vercel, Railway, Fly.io, Kubernetes, Cloud Foundry, OpenShift} \\
+{\small\bfseries\color{accent} Languages} & {\small Go, Python, Java, C\#, JavaScript/TypeScript, Shell, SQL} \\
+{\small\bfseries\color{accent} Developer Tools} & {\small Kiro, kiro-cli, kitty, Docker, Terraform, Helm, Git} \\
+\end{tabularx}
+
+\section{Public Work \& Publications}
+{\small
+GitHub: \href{https://github.com/jasonmimick}{github.com/jasonmimick} (personal/product work) \textbar\ \href{https://github.com/jasonmimick-aws}{github.com/jasonmimick-aws} (AWS/partner work)\\
+AWS Builder Center: \href{https://builder.aws.com/community/@mimjasov?tab=articles}{builder.aws.com/community/@mimjasov}\\
+Portfolio: \href{https://github.com/jasonmimick/portfolio}{github.com/jasonmimick/portfolio}}
+\begin{itemize}
+\item {\small \href{https://aws.amazon.com/blogs/machine-learning/monitor-agents-built-on-amazon-bedrock-with-datadog-llm-observability/}{Monitor agents built on Amazon Bedrock with Datadog LLM Observability} --- AWS Machine Learning Blog, Jul 2025}
+\item {\small \href{https://dash.datadoghq.com/2025/speakers/jason-mimick}{AI Agents: Building, Scaling, and Monitoring Autonomous Systems on AWS} --- Expo Theater Talk, Datadog DASH 2025, Jun 2025}
+\item {\small \href{https://github.com/jasonmimick-aws/dynatrace-open}{Observability in the Age of AI on AWS} --- White paper on observability for AI workloads (Dynatrace), Mar 2026}
+\item {\small \href{https://cloud.redhat.com/blog/dev-preview-mongodb-enterprise-running-on-openshift}{Developer Preview: first MongoDB Enterprise Kubernetes solution} --- RedHat Blog, 2017}
+\item {\small \href{https://cloud.redhat.com/blog/mongodb-kubernetes-operator}{Official MongoDB Operator launch blog with RedHat} --- RedHat Blog, 2018}
+\item {\small MongoDB Blogs: \href{https://www.mongodb.com/blog/authors/jason-mimick}{mongodb.com/blog} \textbar\ \href{https://www.mongodb.com/developer/author/jason-mimick/}{mongodb.com/developer} --- 2017--2022}
+\item {\small \href{https://www.youtube.com/watch?v=3jPcQLu1o24}{Spring One 2017: MongoDB PCF Tile} --- Talk, 2017}
+\item {\small \href{https://medium.com/mongodb/mongodb-enterprise-running-on-openshift-922171f359dc}{MongoDB Enterprise running on OpenShift} --- RedHat/Medium, 2018}
+\item {\small \href{https://mongodblocalchicago2018.sched.com/event/FkWy/mongodb-ops-manager-kubernetes}{Chicago MongoDB Local: Ops Manager + Kubernetes} --- Talk, 2018}
+\item {\small \href{https://mongodbatawsreinvent2019.sched.com/event/Y97h/future-proofing-your-cloud-data-strategy-with-mongodb-atlas}{re:Invent 2019: Future-Proofing Your Cloud Data Strategy with MongoDB Atlas} --- Talk, 2019}
+\item {\small \href{https://diamanti.com/wp-content/uploads/2020/08/Diamanti_MongoDB_Accelerated_Story_WP.pdf}{White Paper with Diamanti: MongoDB k8s scaling/perf} --- 2020}
+\end{itemize}
+
+\section{Education}
+\textbf{University of Vermont} --- MS Mathematics, 1998; Thesis: \href{https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.2960&rep=rep1&type=pdf}{Ranking Partially Ordered Sets}; Graduate Teaching Fellow\\
+\textbf{University of Nebraska} --- BS Mathematics, 1996
+
+\section{Patent}
+{\small Serviceability and Configuration Management, United States 20100299653}
+
+\section{Personal Interests}
+{\small family, guitar, music, albums, philosophy, math, technology, cycling, running, hiking, \& our dog Luna and cats Aslan and Ali}
+
+\end{document}

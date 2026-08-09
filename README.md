@@ -2,11 +2,13 @@
 
 Senior Partner Solutions Architect at AWS with 25+ years building and shipping products across cloud, databases, observability, and AI. Currently enabling GenAI agent systems, observability integrations, and next-gen developer tooling with AWS's top strategic ISV partners.
 
-📄 [Resume (markdown)](resume.md) · [Resume (classic PDF)](JasonMimickResume2026-classic.pdf) · [Resume (modern PDF)](JasonMimickResume2026-modern.pdf)
+📄 **Technical resume:** [Markdown](resume.md) · [Classic PDF](JasonMimickResume2026-classic.pdf) · [Modern PDF](JasonMimickResume2026-modern.pdf)
 
-🔗 [github.com/jasonmimick](https://github.com/jasonmimick) · [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) · [@jmimick](https://twitter.com/jmimick) · [LinkedIn](https://www.linkedin.com/in/jmimick)
+📄 **Product/PM-focused resume:** [1-page PDF](resume-2026-aug-pm.pdf) · [Markdown](resume-2026-aug-pm.md) · [Long-form PDF](resume-product-pm.pdf) · [Long-form Markdown](resume-product-pm.md)
 
-*Last updated* April 2026
+🔗 [github.com/jasonmimick](https://github.com/jasonmimick) · [github.com/jasonmimick-aws](https://github.com/jasonmimick-aws) · [@jmimick](https://twitter.com/jmimick) · [LinkedIn](https://www.linkedin.com/in/jmimick) · [AWS Builder Center](https://builder.aws.com/community/@mimjasov?tab=articles)
+
+*Last updated* August 2026
 
 ---
 
